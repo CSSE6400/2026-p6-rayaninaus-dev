@@ -39,3 +39,14 @@ terraform.rc
 
 # Ignore Apple .DS_store files
 **/.DS_Store
+
+# Terraform local files
+credentials
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
